@@ -1,0 +1,4 @@
+desc 'runTest'
+task :runTest do
+  system 'cucumber -f html -o report/report.html'
+end
